@@ -25,15 +25,15 @@ export default function Footer(props) {
         </div>
         <div className='md:p-0 text-center md:text-right text-xs'>
           右侧链接
-          {/* <a href="#" className="text-black no-underline hover:underline">Privacy Policy</a> */}
-          {/* {siteConfig('BEI_AN') && (
+          <a href="#" className="text-black no-underline hover:underline">Privacy Policy</a>
+          {siteConfig('BEI_AN') && (
             <a
               href={siteConfig('BEI_AN_LINK')}
               className='no-underline hover:underline ml-4'>
               {siteConfig('BEI_AN')}
             </a>
-          )} */}
-          {/* <BeiAnGongAn />
+          )}
+          <BeiAnGongAn />
           <span className='no-underline ml-4'>
             Powered by NotionNext
             <a
@@ -41,7 +41,7 @@ export default function Footer(props) {
               className=' hover:underline'>
               NotionNext {siteConfig('VERSION')}
             </a>
-          </span> */}
+          </span>
         </div>
       </div>
     </footer>
