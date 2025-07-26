@@ -27,20 +27,20 @@ export default function Footer(props) {
           {/* 右侧链接 */}
           {/* <a href="#" className="text-black no-underline hover:underline">Privacy Policy</a> */}
           {siteConfig('BEI_AN') && (
-            <a
-              href={siteConfig('BEI_AN_LINK')}
-              className='no-underline hover:underline ml-4'>
-              {siteConfig('BEI_AN')}
-            </a>
+            // <a
+            //   href={siteConfig('BEI_AN_LINK')}
+            //   className='no-underline hover:underline ml-4'>
+            //   {siteConfig('BEI_AN')}
+            // </a>
           )}
           <BeiAnGongAn />
           <span className='no-underline ml-4'>
-            Powered by
-            <a
+            Powered by NotionNext
+            {/* <a
               href='https://github.com/tangly1024/NotionNext'
               className=' hover:underline'>
               NotionNext {siteConfig('VERSION')}
-            </a>
+            </a> */}
           </span>
         </div>
       </div>
