@@ -35,7 +35,7 @@ const Style = () => {
         background-repeat: no-repeat;
         background-position: bottom center;
         background-size: 0 2px;
-        transition: background-size 100ms ease-in-out;
+        transition: background-size 200ms ease-in-out;
       }
 
       #theme-hexo .menu-link:hover {
