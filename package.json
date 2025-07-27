@@ -16,7 +16,7 @@
     "url": "http://tangly1024.com"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 3000",
     "build": "next build",
     "start": "next start",
     "post-build": "next-sitemap --config next-sitemap.config.js",
